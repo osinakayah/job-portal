@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <title> NEW CLIENT REGISTRATION </title>
 
- <script type="text/javascript" src="/job_portal/js/validate.js"></script>
+ <script type="text/javascript" src="../job_portal/js/validate.js"></script>
          <script>
              function checkForm() {
 // Fetching values from all input fields and storing them in variables.

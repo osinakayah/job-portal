@@ -66,6 +66,6 @@ if (!mysqli_query($db1,$query5))
     echo("Error description: " . mysqli_error($db1));
 }
 else{
-    header('location:login.php?msg=registered');
+    header('location:../login.php?msg=registered');
 }
 ?>

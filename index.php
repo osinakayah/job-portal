@@ -233,7 +233,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         $(".navbar a, footer a[href='#insidenav']").on('click', function(event) {
 
             // Prevent default anchor click behavior
-            event.preventDefault();
+            //event.preventDefault();
 
             // Store hash
             var hash = this.hash;

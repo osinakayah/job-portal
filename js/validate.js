@@ -34,6 +34,6 @@ document.getElementById(field).innerHTML = xmlhttp.responseText;
 document.getElementById(field).innerHTML = "Error Occurred. <a href='index.php'>Reload Or Try Again</a> the page.";
 }
 }
-xmlhttp.open("GET", "/job_portal/js/valid.php?type=" + type + "&query=" + query, true);
+xmlhttp.open("GET", "../job_portal/js/valid.php?type=" + type + "&query=" + query, true);
 xmlhttp.send();
 }

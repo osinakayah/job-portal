@@ -5,7 +5,7 @@ class dbconfig {
   // database username
   protected static $username = "root";
   // database password
-  protected static $password = "sreelal";
+  protected static $password = "";
   //database name
   protected static $dbname = "location";
 

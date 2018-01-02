@@ -25,7 +25,7 @@
         }
 
 function locationInfo() {
-    var rootUrl = "/job_portal/location/api.php";
+    var rootUrl = "../job_portal/location/api.php";
     var call = new ajaxCall();
     this.getCities = function(id) {
         $(".cities option:gt(0)").remove();
