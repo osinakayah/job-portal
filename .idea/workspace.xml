@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0cf4989-68d2-42d4-9ced-bce58d2c5a41" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employer/process_regemp.php" afterPath="$PROJECT_DIR$/employer/process_regemp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employer/register_emp.php" afterPath="$PROJECT_DIR$/employer/register_emp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/job_portal/js/valid.php" afterPath="$PROJECT_DIR$/job_portal/js/valid.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/job_portal/js/validate.js" afterPath="$PROJECT_DIR$/job_portal/js/validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/job_portal/location/classes/dbconfig.php" afterPath="$PROJECT_DIR$/job_portal/location/classes/dbconfig.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobseeker/process_user.php" afterPath="$PROJECT_DIR$/jobseeker/process_user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/validate.js" afterPath="$PROJECT_DIR$/js/validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/location/location.js" afterPath="$PROJECT_DIR$/location/location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employer/process_postjob.php" afterPath="$PROJECT_DIR$/employer/process_postjob.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="process_user.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="process_user.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobseeker/process_user.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -70,13 +61,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validate.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/job_portal/js/validate.js">
+      <file leaf-file-name="process_postjob.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/employer/process_postjob.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="174">
+              <caret line="60" column="110" lean-forward="false" selection-start-line="60" selection-start-column="110" selection-end-line="60" selection-end-column="110" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <marker date="1514903302232" expanded="true" signature="1337:1387" ph="select name countries" />
+                <marker date="1514903302232" expanded="true" signature="1502:1547" ph="select name states" />
+                <marker date="1514903302232" expanded="true" signature="1675:1719" ph="select name cities" />
+                <marker date="1514903302232" expanded="true" signature="1911:2149" ph="insert into jobs... " />
               </folding>
             </state>
           </provider>
@@ -174,6 +168,7 @@
         <option value="$PROJECT_DIR$/js/validate.js" />
         <option value="$PROJECT_DIR$/employer/process_regemp.php" />
         <option value="$PROJECT_DIR$/jobseeker/process_user.php" />
+        <option value="$PROJECT_DIR$/employer/process_postjob.php" />
       </list>
     </option>
   </component>
@@ -246,6 +241,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Online-Job-Portal-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Online-Job-Portal-master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="employer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -284,12 +293,12 @@
       <updated>1514728703892</updated>
       <workItem from="1514728705736" duration="1523000" />
       <workItem from="1514732717265" duration="35000" />
-      <workItem from="1514893876520" duration="4219000" />
+      <workItem from="1514893876520" duration="5255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5777000" />
+    <option name="totallyTimeSpent" value="6813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
@@ -302,7 +311,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3301282" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3301282" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -477,6 +486,19 @@
             <marker date="1514898155506" expanded="true" signature="2021:2107" ph="INSERT INTO login... " />
             <marker date="1514898155506" expanded="true" signature="2230:2458" ph="INSERT INTO jobseeker... " />
             <marker date="1514898155506" expanded="true" signature="2345:2390" ph="SELECT log_i... login" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employer/process_postjob.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="60" column="110" lean-forward="false" selection-start-line="60" selection-start-column="110" selection-end-line="60" selection-end-column="110" />
+          <folding>
+            <marker date="1514903302232" expanded="true" signature="1337:1387" ph="select name countries" />
+            <marker date="1514903302232" expanded="true" signature="1502:1547" ph="select name states" />
+            <marker date="1514903302232" expanded="true" signature="1675:1719" ph="select name cities" />
+            <marker date="1514903302232" expanded="true" signature="1911:2149" ph="insert into jobs... " />
           </folding>
         </state>
       </provider>
