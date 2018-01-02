@@ -55,7 +55,7 @@ $city= $row['name'];
 
 $location=$country.",".$state.",".$city;
 
-$query4="INSERT INTO login (email,password,usertype,status) VALUES ('$email','$hash','employer',0)";
+$query4="INSERT INTO login (email,password,usertype,status) VALUES ('$email','$hash','employer',1)";
     $result1 = mysqli_query($db1,$query4) or die("Cant Register , The user email may be already existing");
 $query5 =  "INSERT INTO employer (log_id,ename,phone,location,etype,address,pincode,executive,industry)
                 VALUES ((SELECT log_id FROM login WHERE email='$email'),'$name','$phone','$location','$type','$addr','$pin','$person','$industry')";
